@@ -1,0 +1,23 @@
+{
+  "name": "pdw/pdw-contact-form",
+  "autoload": {
+    "psr-4": {
+      "Pdw\\Pdw_Contact_Form\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tino Wittig",
+      "email": "info@prodoweb.de"
+    }
+  ],
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^3.0"
+  },
+  "require": {},
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
